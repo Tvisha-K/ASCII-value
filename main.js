@@ -40,10 +40,12 @@ function my_keydown(e){
 
 			console.log("alphabet key")
 		
+			
 	}
 
 
-	if((keyPressed >= 48 && keyPressed <= 57)){
+
+	else if((keyPressed >= 48 && keyPressed <= 57)){
 
 		num_key();
 
@@ -53,7 +55,7 @@ function my_keydown(e){
 
 	}
 
-	if((keyPressed >= 37 && keyPressed <= 40)){
+	else if((keyPressed >= 37 && keyPressed <= 40)){
 
 		arrow_key();
 
@@ -63,7 +65,7 @@ function my_keydown(e){
 
 	}
 
-	if((keyPressed >= 17 && keyPressed <=18)|| (keyPressed == 27)){
+	else if((keyPressed >= 17 && keyPressed <=18)|| (keyPressed == 27)){
 
 		sp_key();
 
